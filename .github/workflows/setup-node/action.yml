@@ -18,7 +18,7 @@ runs:
       id: cache_dependencies
       uses: actions/cache@v3
       with:
-        path: ./portfolio
+        path: ./portfolio/portfolio
         key: node-modules-${{ hashFiles('./portfolio/package-lock.json') }}
 
     - name: Install dependencies 🔧
