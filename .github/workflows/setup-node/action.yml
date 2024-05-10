@@ -11,7 +11,9 @@ runs:
 
     - name: Check Current Working Directory
       shell: bash
-      run: ls - al
+      run: |
+        ls -al
+        pwd
     - name: Cache dependencies ⚡
       id: cache_dependencies
       uses: actions/cache@v3
