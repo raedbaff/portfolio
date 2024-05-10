@@ -9,6 +9,9 @@ runs:
       uses: actions/setup-node@v4
       with:
         node-version: 20
+    - name: check repo 
+      shell: bash
+      run: pwd
     - name: Cache dependencies ⚡
       id: cache_dependencies
       uses: actions/cache@v3
