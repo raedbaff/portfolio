@@ -9,6 +9,8 @@ runs:
       with:
         node-version: 20
 
+    - name: Check Current Working Directory
+      run: pwd
     - name: Cache dependencies ⚡
       id: cache_dependencies
       uses: actions/cache@v3
