@@ -10,6 +10,7 @@ runs:
         node-version: 20
 
     - name: Check Current Working Directory
+      shell: bash
       run: pwd
     - name: Cache dependencies ⚡
       id: cache_dependencies
