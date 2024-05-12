@@ -2,9 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-//import corpcommentImg from "/corpcommentImg.png";
-//import rmtdevImg from "@/public/rmtdev.png";
-//import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -35,52 +32,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated from Polytechnique and ESSTHS",
+    location: "Sousse",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I studied for 6 years after baccalaureat where i got my degree in STIC(Sciences et technologies de l'information et communication) and after that 3 more years in software engineering at polytechnique.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2017-2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Fullstack Developer at SAAD services",
+    location: "Sousse, Sahloul",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a full-stack developer for 4 months using technologies like sails js RDF RDFS and apache fuseki for database. I gained valuable quick learning skills.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Developer at HPC GROUP / Ciris",
+    location: "Sousse, Sidi Abd hmid",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "My stack includes Sveltekit, Node js, TypeScript, SQL, Docker .... I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] ;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "E-commerce website",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "/portfolio/CorpComment.png",
+    imageUrl: "/portfolio/ecommerce.png",
   },
   {
-    title: "rmtDev",
+    title: "Social Media website",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/portfolio/rmtDev.png",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: "/portfolio/social.jpg",
   },
   {
-    title: "Word Analytics",
+    title: "Medical Website (Medigest)",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "/portfolio/wordanalytics.png",
+      "This is a doctor management website where doctors can receive appointments and talk freely to their clients, I worked on this project for my graduation project inside polytechnique.",
+    tags: ["Angular", "SpringBoot", "MySQL"],
+    imageUrl: "/portfolio/medigest.PNG",
   },
 ] ;
 
@@ -91,17 +88,20 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Sveltkit",
+  "Angular",
   "Node.js",
   "Git",
   "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "SpringBoot",
+  "MYSQL",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "Flutter",
+  "Firebase",
   "Framer Motion",
+  "Docker"
 ] ;
