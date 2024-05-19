@@ -61,7 +61,7 @@ export const projectsData = [
   {
     title: "E-commerce website",
     description:
-      "Developed a comprehensive eCommerce platform featuring user-friendly navigation, secure payment integration, real-time inventory management, and personalized shopping experiences, designed to enhance user satisfaction and drive online sales.",
+      "Developed a comprehensive eCommerce platform featuring user-friendly navigation , goal of this project was for me to learn the basics and principals of full-stack developpement.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "/portfolio/ecommerce.png",
   },
@@ -78,6 +78,13 @@ export const projectsData = [
       "This is a doctor management website where doctors can receive appointments and talk freely to their clients, I worked on this project for my graduation project inside polytechnique.",
     tags: ["Angular", "SpringBoot", "MySQL"],
     imageUrl: "/portfolio/medigest.PNG",
+  },
+  {
+    title: "Modern Portfolio app",
+    description:
+      "Developed a sleek and responsive portfolio app showcasing my projects, skills, and experiences, complete with interactive elements, seamless navigation, and an intuitive user interface.",
+    tags: ["Next js", "Typescript", "aceternity ui","Tailwind css"],
+    imageUrl: "/portfolio/portfolio.PNG",
   },
 ] ;
 
