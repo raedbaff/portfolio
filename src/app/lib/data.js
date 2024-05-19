@@ -61,14 +61,14 @@ export const projectsData = [
   {
     title: "E-commerce website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Developed a comprehensive eCommerce platform featuring user-friendly navigation, secure payment integration, real-time inventory management, and personalized shopping experiences, designed to enhance user satisfaction and drive online sales.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "/portfolio/ecommerce.png",
   },
   {
     title: "Social Media website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Created an engaging social media app with real-time messaging, customizable profiles, news feeds, and robust privacy settings, designed to foster dynamic user interactions and community building.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: "/portfolio/social.jpg",
   },
